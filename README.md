@@ -1,4 +1,4 @@
-gulp-j140 [![Build Status](https://travis-ci.org/tunnckoCore/gulp-j140.png)](https://travis-ci.org/tunnckoCore/gulp-j140) [![Dependencies Status](https://david-dm.org/tunnckoCore/gulp-j140/status.svg)](https://david-dm.org/dlau/gulp-j140) [![Coverage Status](https://coveralls.io/repos/tunnckoCore/gulp-j140/badge.png?branch=master)](https://coveralls.io/r/tunnckoCore/gulp-j140?branch=master)
+gulp-j140 [![Build Status](https://travis-ci.org/tunnckoCore/gulp-j140.png)](https://travis-ci.org/tunnckoCore/gulp-j140) [![Dependencies Status](https://david-dm.org/tunnckoCore/gulp-j140/status.svg)](https://david-dm.org/tunnckoCore/gulp-j140) [![Coverage Status](https://coveralls.io/repos/tunnckoCore/gulp-j140/badge.png?branch=master)](https://coveralls.io/r/tunnckoCore/gulp-j140?branch=master)
 ================
 
 > Compile [j140 templates](https://github.com/tunnckoCore/j140). Gulp plugin for j140 - Javascript template engine in 140 bytes, by Jed Schmidt.
