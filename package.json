@@ -1,6 +1,6 @@
 {
   "name": "gulp-j140",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Compile j140 templates. Gulp plugin for j140 - Javascript template engine in 140 bytes, by Jed Schmidt.",
   "scripts": {
     "lint": "jshint index.js && jscs index.js --reporter inline",
@@ -38,7 +38,7 @@
   "dependencies": {
     "gulp-util": "*",
     "through2": "*",
-    "j140": ">=1"
+    "j140": "*"
   },
   "devDependencies": {
     "istanbul-harmony": "^0.3.1",
