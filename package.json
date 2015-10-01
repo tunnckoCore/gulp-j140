@@ -1,48 +1,37 @@
 {
   "name": "gulp-j140",
   "version": "1.0.0",
-  "description": "Compile j140 templates. Gulp plugin for j140 - Javascript template engine in 140 bytes, by Jed Schmidt.",
+  "description": "Gulp plugin for `j140` - template engine in 140 bytes by @jed Schmidt.",
+  "repository": "tunnckoCore/gulp-j140",
+  "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
+  "main": "index.js",
+  "license": "MIT",
   "scripts": {
-    "lint": "jshint index.js && jscs index.js --reporter inline",
-    "test": "mocha",
-    "test-cov": "istanbul cover _mocha",
-    "test-travis": "istanbul cover _mocha --report lcovonly"
-  },
-  "author": {
-    "name": "Charlike Make Reagent",
-    "email": "mameto_100@mail.bg",
-    "url": "https://github.com/tunnckoCore"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/tunnckoCore/gulp-j140.git"
-  },
-  "keywords": [
-    "gulpplugin",
-    "j140",
-    "140bytes",
-    "javascript",
-    "template",
-    "engine",
-    "browser",
-    "node.js",
-    "node",
-    "nodejs",
-    "micro",
-    "microjs"
-  ],
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/tunnckoCore/gulp-j140/blob/master/license.md"
+    "test": "standard && node test.js"
   },
   "dependencies": {
-    "gulp-util": "*",
-    "through2": "*",
-    "j140": "*"
+    "gulp-util": "^3.0.6",
+    "is-real-object": "^1.0.1",
+    "j140": "^2.0.0",
+    "through2": "^2.0.0"
   },
   "devDependencies": {
-    "istanbul-harmony": "^0.3.1",
-    "mocha": "*",
-    "mocha-lcov-reporter": "^0.0.1"
-  }
+    "assertit": "^0.1.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "engine",
+    "es",
+    "es6",
+    "es-template",
+    "es6-template",
+    "gulp",
+    "gulpplugin",
+    "plugin",
+    "template",
+    "tpl",
+    "transform"
+  ]
 }
