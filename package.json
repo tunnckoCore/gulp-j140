@@ -1,6 +1,6 @@
 {
   "name": "gulp-j140",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gulp plugin for `j140` - template engine in 140 bytes by @jed Schmidt.",
   "repository": "tunnckoCore/gulp-j140",
   "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
